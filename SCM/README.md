@@ -1,16 +1,16 @@
 # Supply chain & data auditing
 
-This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
+This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Manufacturer, Retailer and Consumer. The user story is similar to any commonly used supply chain process. A Manufacturer has a unique ID, Name, Location etc who procures , creates and sells luxury bags to Retailer, who receives and displays these bags and sells to Consumer, who sees those bags and purchases these bags from Retailer. Various Actors, Sequence flows , Activity diagrams and State transition diagrams are there.
 
 The DApp User Interface when running should look like...
 
-![truffle test](images/ftc_product_overview.png)
+![truffle test](images/ProductOverview.png)
 
-![truffle test](images/ftc_farm_details.png)
+![truffle test](images/ManufacturerDetails.png)
 
-![truffle test](images/ftc_product_details.png)
+![truffle test](images/ProductDetails.png)
 
-![truffle test](images/ftc_transaction_history.png)
+![truffle test](images/Transactions.png)
 
 
 ## Getting Started
@@ -20,10 +20,6 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
-
-```
-Give examples (to be clarified)
-```
 
 ### Installing
 
@@ -50,7 +46,7 @@ ganache-cli -m "spirit supply whale amount human item harsh scare congress disco
 
 Your terminal should look something like this:
 
-![truffle test](images/ganache-cli.png)
+![truffle test](images/TruffleDevelop.png)
 
 In a separate terminal window, Compile smart contracts:
 
@@ -60,7 +56,7 @@ truffle compile
 
 Your terminal should look something like this:
 
-![truffle test](images/truffle_compile.png)
+![truffle test](images/TruffleCompile.png)
 
 This will create the smart contract artifacts in folder ```build\contracts```.
 
@@ -72,7 +68,7 @@ truffle migrate
 
 Your terminal should look something like this:
 
-![truffle test](images/truffle_migrate.png)
+![truffle test](images/TruffleMigrate.png)
 
 Test smart contracts:
 
@@ -82,7 +78,7 @@ truffle test
 
 All 10 tests should pass.
 
-![truffle test](images/truffle_test.png)
+![truffle test](images/TruffleTest.png)
 
 In a separate terminal window, launch the DApp:
 
@@ -94,17 +90,8 @@ npm run dev
 
 * [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
 * [IPFS](https://ipfs.io/) - IPFS is the Distributed Web | A peer-to-peer hypermedia protocol
-to make the web faster, safer, and more open.
+to make the web faster, safer, and more open. This has not been used.
 * [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
 
 
-## Authors
 
-See also the list of [contributors](https://github.com/your/project/contributors.md) who participated in this project.
-
-## Acknowledgments
-
-* Solidity
-* Ganache-cli
-* Truffle
-* IPFS
