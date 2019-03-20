@@ -1,7 +1,7 @@
 
 # Supply chain & data auditing
 
-This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Manufacturer, Retailer and Consumer. The user story is similar to any commonly used supply chain process. A Manufacturer has a unique ID, Name, Location etc who procures , creates and sells luxury bags to Retailer, who receives and displays these bags and sells to Consumer, who sees those bags and purchases these bags from Retailer. Various Actors, Sequence flows , Activity diagrams and State transition diagrams are there.
+This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Manufacturer, Retailer and Consumer. The user story is similar to any commonly used supply chain process. A Manufacturer has a unique ID, Name, Location etc who procures , creates and sells luxury bags to Retailer, who receives and displays these bags and sells to Consumer, who sees those bags and purchases these bags from Retailer. Various Actors, Sequence flows , Activity diagrams and State transition diagrams are there in UMLDiagrams-LuxuryBags-SCM folder.
 
 The DApp User Interface when running should look like...
 
