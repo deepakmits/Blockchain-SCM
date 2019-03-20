@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fair Trade Coffee</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Fair Trade Lux Bags</h1>
+        <hr>
+        <p style="text-align: center;">Prove the authenticity of luxury bag using the Ethereum blockchain.</p>
+    </div>
+
+    <div id="ftc-harvest">
+        <h2>Product Overview</h2>
+        <div class="form-group">
+            SKU
+            <br>
+            <input class="input-field" type="number" id="sku" name="sku" value=1><br>
+            UPC
+            <br>
+            <input type="number" id="upc" name="upc" value=1><br>
+            Current Owner ID
+            <br>
+            <input type="text" id="ownerID" name="ownerID" value="0x07Ea69b139559BA768E249Ce2c550f650C23cb34" size="50"><br>
+            <div class=button-div>
+                <button class="btn-fetchOne" id="button" type="button" data-id="11">Fetch Data 1</button>
+                <button class="btn-fetchTwo" id="button" type="button" data-id="12">Fetch Data 2</button>
+            </div>
+        </div>
+        <div class=form-break></div>
+        <h2>Manufacturer Details</h2>
+        <div class="form-group">
+            Manufacturer ID
+            <br>
+            <input type="text" id="originManufacturerID" name="originManufacturerID" value="0xb0e53AB378918683ECd716aBb3171861c3f5FFf9"
+                size="50"><br>
+            Manufacturer Name
+            <br>    
+            <input type="text" id="originManufacturerName" name="originManufacturerName" value="Luxe Bags"><br>
+            Manufacturer Information
+            <br>
+            <input type="text" id="originManufacturerInformation" name="originManufacturerInformation" value="Luxe Bags Corp"><br>
+            Manufacturer City
+            <br>
+            <input type="text" id="originManufacturerCity" name="originManufacturerCity" value="Bangalore"><br>
+            Manufacturer Country
+            <br>
+            <input type="text" id="originManufacturerCountry" name="originManufacturerCountry" value="India"><br>
+            <br>
+            <button class="btn-procure" id="button" type="button" data-id="1">Procure</button>
+            <button class="btn-create" id="button" type="button" data-id="2">Create</button>
+            <button class="btn-forsale" id="button" type="button" data-id="3">ForSale</button>
+        </div>
+        <div class=form-break></div>
+        <h2>Product Details</h2>
+        <div class="form-group">
+            Product Notes
+            <br>
+            <input type="text" id="productNotes" name="productNotes" value="Best Luxe Bagz" size="60"><br>
+            Product Price
+            <br>
+            <input type="number" id="productPrice" name="productPrice" value=1>ETH<br>
+            Retailer ID
+            <br>
+            <input type="text" id="retailerID" name="retailerID" value="0x62029530b0f3d135D1F4C8634203C52fCdE5F93D"
+                size="50"><br>
+            Consumer ID
+            <br>
+            <input type="text" id="consumerID" name="consumerID" value="0xBeEA93c3391D4B073E54a8235E5c8B23A41fDD7A"
+                size="50"><br>
+            <br>
+            <button class="btn-buy" id="button" type="button" data-id="4">Buy</button>
+            <button class="btn-ship" id="button" type="button" data-id="5">Ship</button>
+            <button class="btn-receive" id="button" type="button" data-id="6">Receive</button>
+            <button class="btn-display" id="button" type="button" data-id="7">Display</button>
+            <button class="btn-purchase" id="button" type="button" data-id="8">Purchase</button>
+            <button class="btn-pack" id="button" type="button" data-id="9">Pack</button>
+            <button class="btn-creceive" id="button" type="button" data-id="10">CReceive</button>
+        </div>
+        <div class=form-break></div>
+        <hr>
+    </div>
+
+    <h2>Transaction History<span id="ftc-history"></span></h2>
+    <div>
+        <ul id="ftc-events">
+            <!-- Events will appear here from app.js -->
+        </ul>
+        <br>
+        <hr>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="js/web3.min.js"></script> -->
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
