@@ -87,6 +87,14 @@ In a separate terminal window, launch the DApp:
 npm run dev
 ```
 
+## Migration to Rinkeby - 
+![truffle test](SCM/images/MigrateRinkeby.png)
+
+## Contract Address on Rinkeby -
+https://rinkeby.etherscan.io/tx/0x04323d06b5677acc60f0f8fc63d99439511523b88b24011a26e26fc1629ed10e
+![truffle test](SCM/images/Etherscan.png)
+
+
 ## Built With
 
 * [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
